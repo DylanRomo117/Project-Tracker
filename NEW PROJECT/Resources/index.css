@@ -1,0 +1,85 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif
+ 
+}
+
+
+#img1 {
+    width: 300px;
+    height: 450px;
+}
+
+
+nav {
+    display: block;
+    padding-left: 50px;
+}
+
+#DRPP {
+    display: inline-block;
+}
+
+#about {
+    display: inline-flex;
+    flex: right;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.about-list {
+    display: block;
+    padding: 35px;
+}
+
+#photo-para {
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+
+#about-me-main-div {
+    display: block;
+}
+
+#div-para {
+    display: block;
+    float: left;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#h1-about-me {
+ display: block;
+}
+
+
+#projects-div {
+    display: block;
+    padding-left: 100px;
+}
+
+.project-title h2 {
+    display: inline;
+}
+
+details {
+    cursor: pointer;
+}
+
+#skill-div {
+    display: block;
+    padding-left: 100px;
+}
+
+.skill {
+    display: inline;
+    flex: auto;
+    padding: 35px;
+    font-weight: bold;
+    overflow: scroll;
+}
